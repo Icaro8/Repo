@@ -23,9 +23,9 @@ export default function Login(){
               <div className="form-margin">
                 <form action="" method="" onSubmit={eventSubmit}>
                     <label htmlFor="email"><strong>Usuário</strong></label>
-                    <input type="email" id="email" className="input-text" required onChange={onChange} minLength={minLength} maxLength={maxLength}/>
+                    <input type="email" id="email" className="input-text" placeholder="Usuário" required onChange={onChange} minLength={minLength} maxLength={maxLength}/>
                     <label htmlFor="senha"><strong>Senha</strong></label>
-                    <input type="password" id="senha" className="input-text" required minLength={minLength}/>
+                    <input type="password" id="senha" className="input-text" placeholder="Senha" required minLength={minLength}/>
                     <input type="submit" value="Logar" className="btn"/>
                 </form>
               </div>

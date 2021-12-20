@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const Container=styled.div`
   background-color:#464D6A;
   width: 100vw;
@@ -50,6 +49,10 @@ export const Container=styled.div`
     display: block;
     margin: 5px auto; 
   }
+  .input-text::placeholder{
+    text-align:center;
+    color:rgba(255,255,255, .1)
+  }
   .input-text:focus{
     outline:none
   }
@@ -60,6 +63,12 @@ export const Container=styled.div`
     color:#fff;
     border:none;
     margin: 10px auto;
+    cursor:pointer;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+    transition: linear .3s;
+    box-shadow: 0 0 2px #eee;
   }
   li{
     text-align:center;
